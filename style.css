@@ -1,11 +1,28 @@
 html {
     font-family: Tahoma;
-    color:rgb(129, 122, 122);
+    color:rgb(58, 58, 58);
 }
 
 body {
-    background-color:rgb(49, 44, 44);
+    background-color:rgb(255, 255, 255);
+    margin: 0;
 }
 p {
     font-size: 1rem;
+}
+.blue{
+    color:aquamarine;
+}
+#header {
+    background-image: url("coverflower.jpg");
+    background-size: cover;
+    height: 25rem;
+    color: rgb(55, 55, 61);
+    font-size: 2rem;
+    border-radius: 0 0 1.2rem 1.2em;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom
 }
