@@ -14,10 +14,11 @@ p {
     color:aquamarine;
 }
 #header {
-    background-image: url("coverflower.jpg");
+    background-image: url("https://img.freepik.com/premium-vector/blue-stars-dark-blue-background_3442-903.jpg");
     background-size: cover;
-    height: 25rem;
-    color: rgb(55, 55, 61);
+    background-position:center center;
+    height: 21rem;
+    color: rgb(94, 96, 124);
     font-size: 2rem;
     border-radius: 0 0 1.2rem 1.2em;
 
