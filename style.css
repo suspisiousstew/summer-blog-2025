@@ -4,21 +4,21 @@ html {
 }
 
 body {
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(252, 251, 246);
     margin: 0;
 }
 p {
     font-size: 1rem;
 }
 .blue{
-    color:rgb(73, 86, 139);
+    color:rgb(73, 139, 125);
 }
 #header {
-    background-image: url("https://img.freepik.com/premium-photo/rich-backdrop-deep-blue-flowers-creating-moody-elegant-atmosphere_912356-7093.jpg");
+    background-image: url("https://wallpaperbat.com/img/17270952-starlight-stars-wallpaper-rose-gold.jpg");
     background-size: cover;
     background-position:center center;
     height: 21rem;
-    color: rgb(255, 255, 255);
+    color: rgb(238, 233, 211);
     font-size: 2rem;
     border-radius: 0 0 1.2rem 1.2em;
 
@@ -28,7 +28,7 @@ p {
 }
 
 .navbar {
-  background-color:rgb(74, 86, 104);
+  background-color:rgb(45, 56, 73);
     display: flex;
     color: white;
     justify-content: center;
@@ -64,12 +64,12 @@ p {
 
 .accordion-header {
     width: 100%;
-    background-color: rgb(135, 137, 141);
+    background-color: rgb(67, 72, 83);
     border: none;
     padding: 1em 1em 1em 3em;
     text-align: left;
     font-size: 1.1rem;
-    color:rgb(192, 195, 212);
+    color: rgb(201, 205, 231);
     cursor: pointer;
     transition: 0.8s
 }
