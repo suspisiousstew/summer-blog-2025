@@ -11,19 +11,73 @@ p {
     font-size: 1rem;
 }
 .blue{
-    color:aquamarine;
+    color:rgb(73, 86, 139);
 }
 #header {
-    background-image: url("https://img.freepik.com/premium-vector/blue-stars-dark-blue-background_3442-903.jpg");
+    background-image: url("https://img.freepik.com/premium-photo/rich-backdrop-deep-blue-flowers-creating-moody-elegant-atmosphere_912356-7093.jpg");
     background-size: cover;
     background-position:center center;
     height: 21rem;
-    color: rgb(94, 96, 124);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     border-radius: 0 0 1.2rem 1.2em;
 
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom
+}
+
+.navbar {
+  background-color:rgb(74, 86, 104);
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color:white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    transition: 0.70s;
+
+}
+
+.nav-links li a:hover {
+    background-color:rgb(57, 65, 78);
+}
+
+.title {
+    text-align: center;
+    padding: 1em;
+}
+
+.current {
+    text-decoration: underline dotted rgb(44, 47, 73) 0.3em;
+}
+
+.accordion-header {
+    width: 100%;
+    background-color: rgb(135, 137, 141);
+    border: none;
+    padding: 1em 1em 1em 3em;
+    text-align: left;
+    font-size: 1.1rem;
+    color:rgb(192, 195, 212);
+    cursor: pointer;
+    transition: 0.8s
+}
+
+.accordion-content {
+    display: none;
+}
+
+.accordion-header:hover{
+    background-color: rgb(107, 109, 112);
 }
