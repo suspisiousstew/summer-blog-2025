@@ -1,10 +1,10 @@
 html {
     font-family: Tahoma;
-    color:rgb(58, 58, 58);
+    color:rgb(192, 194, 202);
 }
 
 body {
-    background-color:rgb(252, 251, 246);
+    background-color:rgb(90, 103, 119);
     margin: 0;
 }
 p {
@@ -80,4 +80,44 @@ p {
 
 .accordion-header:hover{
     background-color: rgb(107, 109, 112);
+}
+
+.hidden {
+    display:none !important;
+}
+
+.blog-entry{
+    display: flex;
+    align-items:center;
+    gap: 2em;
+    padding-right: 2%;
+    margin-bottom: 2em;
+}
+
+.blog-entry img {
+    width: 40%;
+    border-radius: 1.5em 1.5em 1.5em 1.5em;
+    
+}
+
+#enter-password {
+    text-align:center;
+}
+
+#enter-password input {
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    border: 0;
+    padding: 0.2em;
+    width: 40%;
+    background-color:rgb(139, 149, 161);
+}
+
+#enter-password button {
+    font-size: 1.3rem;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    width: 7%;
+    border: 0;
+    background-color:rgb(99, 123, 150);
 }
